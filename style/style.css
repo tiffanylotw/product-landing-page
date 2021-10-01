@@ -1,0 +1,181 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Lato", sans-serif;
+}
+:root {
+  --main-color: #f1c40f;
+}
+body {
+  width: 100vw;
+}
+.nav {
+  width: 100%;
+  position: relative;
+  top: 1.5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+}
+header img {
+  width: 10rem;
+  margin: 1rem;
+}
+.hero {
+  position: relative;
+  top: 8rem;
+  text-align: center;
+}
+.hero input[type="email"] {
+  width: 250px;
+  padding: 5px;
+  margin-top: 20px;
+}
+.hero input[type="submit"] {
+  width: 140px;
+  padding: 7px 20px;
+  margin-top: 20px;
+  background-color: var(--main-color);
+  font-weight: bold;
+  border: 0;
+  font-size: 14px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+ul {
+  margin: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style: none;
+}
+ul li a {
+  padding: 20px;
+  color: black;
+  text-decoration: none;
+}
+.main {
+  position: relative;
+  top: 12rem;
+}
+.material {
+  margin: 20px;
+  width: 70%;
+}
+.material img {
+  float: left;
+  position: absolute;
+  left: 15rem;
+  width: 50px;
+}
+.material h2 {
+  position: relative;
+  left: 18.5rem;
+}
+.material p {
+  position: relative;
+  left: 18.5rem;
+  width: 53rem;
+}
+.shipping {
+  margin: 20px;
+  width: 70%;
+}
+.shipping img {
+  float: left;
+  position: absolute;
+  left: 15rem;
+  width: 50px;
+}
+.shipping h2 {
+  position: relative;
+  left: 18.5rem;
+}
+.shipping p {
+  position: relative;
+  left: 18.5rem;
+  width: 53rem;
+}
+
+.quality {
+  margin: 20px;
+  width: 70%;
+}
+.quality img {
+  float: left;
+  position: absolute;
+  left: 15rem;
+  width: 50px;
+}
+.quality h2 {
+  position: relative;
+  left: 18.5rem;
+}
+.quality p {
+  position: relative;
+  left: 18.5rem;
+  width: 53.5rem;
+}
+.youtube {
+  display: flex;
+  justify-content: center;
+  margin-top: 15rem;
+}
+.price {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.tenor,
+.bass,
+.valve {
+  border: solid 2px black;
+  border-radius: 5px;
+  padding: 30px;
+  width: 200px;
+  margin: 50px 50px;
+  text-align: center;
+}
+.price ol li {
+  list-style: none;
+  line-height: 25px;
+}
+.price h2 {
+  margin: 10px;
+}
+.price button {
+  background-color: var(--main-color);
+  border: 0;
+  width: 100px;
+  height: 30px;
+  margin: 30px 50px 1px 50px;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+}
+footer {
+  float: right;
+  position: relative;
+  right: 8rem;
+}
+footer ol li {
+  list-style: none;
+}
+
+footer ol a {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+footer ol {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-weight: bold;
+  width: 200px;
+}
